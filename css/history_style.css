@@ -1,0 +1,240 @@
+/*======================================
+				BASIC
+======================================*/
+
+body {
+	background-color: #D1E2ED;
+	margin-top: 0px;
+}
+
+#header{
+	height: 170px;
+	width: 100%;
+	border-radius: 5px;
+	background: #DBD1C8;
+}
+
+#main {
+	background-color: #DBD1C8;
+	border-radius:10px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+#footer {
+	height: 35px;
+	width: 100%;
+	background-color: #343643;
+	border-radius: 5px;
+	color: white;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+	text-align: center;
+}
+
+/*======================================
+				HEADER
+======================================*/
+
+#header_top {
+	background-color: #343643;
+	height: 120px;
+	border-radius: 5px;
+	color: white;
+}
+
+#header_left {
+	height: 105px;
+	width: 500px;
+	float: left; 
+	font-size: 30px;
+	text-align: center;
+	font-family: Georgia;
+	padding-top: 5px;
+	margin-top: 0px;
+	margin-left: 25px;
+}
+
+#header_right {
+	height: 100px;
+	width: 350px;
+	float: right; 
+	font-size: 14px;
+	font-family: 'Consolas';
+	padding-top: 0px;
+	padding-left: 10px;
+	margin-top: 8px;
+	margin-right: 25px;
+	color: white;
+	font-size: 16px;
+}
+
+#header_right_name {
+	color: #D17A08;
+	font-weight: bold;
+
+}
+
+#header_right_info {
+	color: white;
+	font-size: 16px;
+}
+
+#header_right a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header_right a:hover{
+	color: #D17A08;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header_menu {
+	height: 40px;
+	width: 100%;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	background-color: #343643;
+	border-radius: 5px;
+}
+
+
+/*======================================
+				LINKS
+======================================*/
+
+a {
+	color: #E6D3D3;
+}
+
+a:hover {
+	color: red;
+}
+
+/*======================================
+				MENU
+======================================*/
+
+#menu_list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu_item {
+	display: inline-block;
+	padding: 5px 0px 4px 5px;
+}
+
+.menu_link {
+	width: 120px;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
+	padding: 4px 4px 4px 4px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: F4F2EC;
+}
+
+.menu_link:hover {
+	width: 120px;
+	display: block;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: black;
+	padding: 4px 4px 4px 4px;
+	font-weight: bold;
+	color: RED;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	background-color: F4F2EC;
+}
+
+/*======================================
+				VIEW FILE
+======================================*/
+
+/* Κεντρικός Τίτλος */
+#page_title {
+	height: 25px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 8px;
+	text-transform: uppercase;
+	background-color: #343643;
+	color: white;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+}
+
+/* Μπλέ γραμμές του πίνακα */
+#line1 {
+	background: #D1E2ED;
+}
+
+/* ’σπρες γραμμές του πίνακα */
+#line2 {
+	background: white;
+}
+
+/* Div με το περιεχόμενο της σελίδας */
+#view {
+	padding-top: 25px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+	border-radius: 10px;
+	font-family: 'Times New Roman';
+	font-size: 20px;
+
+}
+
+#view_table {
+	border-radius: 5px;
+	padding: 1px;
+}
+
+#view_table table{
+	background: black;
+	padding: 2px;
+	border-radius: 5px;
+}
+
+#view_table th {
+	background: white;
+	font-size: 14px;
+	font-family: 'Consolas';
+}
+
+#view_table td {
+	text-align: center;
+	font-size: 14px;
+}
+
+/* version */
+#version {
+	font-family: 'Consolas';
+	font-weight: bold;
+	font-size: 20px;
+	color: #D17A08;
+	padding-top: 55px;
+	padding-left: 15px;
+}

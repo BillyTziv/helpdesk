@@ -1,0 +1,99 @@
+/*======================================
+				BASIC
+======================================*/
+
+body {
+	background-color: #D1E2ED;
+	margin-top: 0px;
+}
+
+#header{
+	height: 130px;
+	width: 100%;
+	border-radius: 5px;
+	background: #DBD1C8;
+}
+
+#main {
+	height:700px;
+	width: 800px;
+	background-color: #DBD1C8;
+	margin: 15px auto 25px auto;
+	padding: 15px 35px 15px 35px;
+	border-radius:10px;
+}
+
+#footer {
+	height: 35px;
+	width: 100%;
+	background-color: #343643;
+	border-radius: 5px;
+	color: white;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+/*======================================
+				HEADER
+======================================*/
+
+#header_top {
+	background-color: #343643;
+	height: 120px;
+	border-radius: 5px;
+	color: white;
+}
+
+#header_left {
+	height: 110px;
+	width: 430px;
+	float: left; 
+	
+	font-size: 30px;
+	text-align: center;
+	font-family: Georgia;
+	
+	margin-left: 15px;
+}
+
+#header_right {
+	height: 110px;
+	width: 520px;
+	float: right; 
+	
+	font-size: 14px;
+	font-family: 'Consolas';
+	color: white;
+	font-size: 16px;
+	
+	margin-right: 15px;
+}
+
+/* Για το "Αποσύνδεση" */
+#header_right a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#header_right a:hover{
+	color: #D17A08;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Περιεχόμενο του index */
+#functions {
+	font-family: 'Georgia','Consolas';
+}
+
+/* version */
+#version {
+	font-family: 'Consolas';
+	font-weight: bold;
+	font-size: 20px;
+	color: #D17A08;
+	padding-top: 55px;
+	padding-left: 15px;
+}

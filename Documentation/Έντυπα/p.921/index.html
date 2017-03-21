@@ -1,0 +1,210 @@
+<!--============================================================================
+Πεδία για το $_POST:
+	- tmhma_klinikh
+	- date
+	- protocol_number
+	- sur_name
+	- first_name
+	- father_name
+	- tmhma_klinikh
+	- phone
+	- lan_outlet
+	- service
+	- service_field
+==============================================================================-->
+<html>
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<meta http-equiv="content-type" content="text/html; charset=iso-8859-7"/>
+</head>
+<body>
+	<div id="main">
+		<div id="header">
+			<div id="info">
+				<div id="info_left">
+					<img width="100" height="100" src="images/image.png" />
+				</div>
+				<div id="info_center">
+					ΥΠΟΥΡΓΕΙΟ ΥΓΕΙΑΣ ΚΑΙ ΚΟΙΝΩΝΙΚΗΣ ΑΛΛΗΛΕΓΓΥΗΣ <br />
+					ΠΑΝΕΠΙΣΤΗΜΙΑΚΟ ΓΕΝΙΚΟ <br />
+					ΝΟΣΟΚΟΜΕΙΟ ΙΩΑΝΝΙΝΩΝ <br />
+					ΤΜΗΜΑ/ΚΛΙΝΙΚΗ: <input type="text" name="tmhma_klinikh" />
+				</div>
+				<div id="info_right">
+					<table>
+						<tr>
+							<td>Ημ/νία:</td>
+							<td><input type="text" name="date" /></td>
+						</tr>
+						<tr>
+							<td>Αρ.πρωτ:</td>
+							<td><input type="text" name="protocol_number" /></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="header_title">
+				ΑΙΤΗΣΗ ΠΑΡΟΧΗΣ ΜΗΧΑΝΟΓΡΑΦΙΚΩΝ ΥΠΗΡΕΣΙΩΝ
+			</div>
+		</div> 
+		<div id="content">
+			<div id="block1">
+				<div class="block_title">
+					 ΣΤΟΙΧΕΙΑ ΑΙΤΟΥΝΤΟΣ 
+				</div>
+				<div id="block1_data">
+					<table>
+						<tr>
+							<td> Επώνυμο:</td>
+							<td> <input type="text" name="sur_name" /> </td>
+							<td> Όνομα:</td>
+							<td> <input type="text" name="first_name" /> </td>
+							<td> Πατρώνυμο:</td>
+							<td> <input type="text" name="father_name" /> </td>
+						</tr>
+						<tr>
+							<td> Τμήμα/Κλινική:</td>
+							<td> <input type="text" name="tmhma_klinikh" /> </td>
+							<td> Τηλέφ:</td>
+							<td> <input type="text" name="phone" /> </td>
+							<td> LAN Outlet:</td>
+							<td> <input type="text" name="lan_outlet" /> </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="block2">
+				<div class="block_title">
+					ΚΑΤΗΓΟΡΙΑ ΑΙΤΟΥΜΕΝΩΝ ΥΠΗΡΕΣΙΩΝ
+				</div>
+				<div id="block2_data">
+					Επιλέξτε ένα απο τα παρακάτω: <br /> <br />
+					<form id="block2_choice" action="" method="">
+						<table>
+							<tr>
+								<td class="table_row1">1. Αποκατάσταση βλάβης ή δυσλειτουργίας εξοπλισμού </td> 
+								<td> <input type="radio" name="service" value="1" /> </td>
+							</tr>
+							<tr>
+								<td class="table_row2">2. Αποκατάσταση πρόσβασης στο Τοπικό Δίκτυο του Νοσοκομείου </td>
+								<td> <input type="radio" name="service" value="2" /> </td>
+							</tr>
+							<tr>
+								<td class="table_row1">3. Αποκατάσταση πρόσβασης στο Διαδίκτυο ή ηλεκτρονικό Ταχυδρομείο </td>
+								<td><input type="radio" name="service" value="3" /> </td>
+							</tr>
+							<tr>
+								<td class="table_row2">4. Αποκατάσταση πρόσβασης σε Εφαρμογή του Πληροφοριακού Συστήματος</td>  
+								<td> <input type="radio" name="service" value="4" /></td>
+							</tr>
+							<tr>
+								<td class="table_row1">5. Υποστήριξη μέσω εφαρμογών υφιστάμενης εφαρμογής του Πληροφοριακού Συστήματος του Νοσοκομείου</td> 
+								<td> <input type="radio" name="service" value="5" /></td>
+							</tr>
+							<tr>
+								<td class="table_row2">6. Δημιουργία report εκτός εφαρμογής σε έντυπη ή ηλεκτρονική μορφή</td> 
+								<td> <input type="radio" name="service" value="6" /> </td> 
+							</tr>
+							<tr>
+								<td class="table_row1">7. Εκπόνηση μελέτης - αναφοράς</td>  
+								<td> <input type="radio" name="service" value="7" /> </td>
+							</tr>
+							<tr>
+								<td class="table_row2">8. Έκδοση στατιστικών αποτελεσμάτων</td>  
+								<td> <input type="radio" name="service" value="8" /></td> 
+							</tr>
+							<tr>
+								<td class="table_row1">9. Υποστήριξη του υλικού χρήστη ή χρηστών</td>  
+								<td> <input type="radio" name="service" value="9" /></td> 
+							</tr>
+							<tr>
+								<td class="table_row2">10. Εκπαίδευση χρήστη ή χρηστών</td>  
+								<td> <input type="radio" name="service" value="10" /></td> 
+							</tr>
+							<tr>
+								<td class="table_row1">11. Υπηρεσίες Ιατρικής Φωτογραφίας</td> 
+								<td> <input type="radio" name="service" value="11" /></td> 
+							</tr>
+							<tr>
+								<td class="table_row2">12. Κάτι άλλο: <input size="100px" type="text" name="service_field" /></td>  
+								<td> <input type="radio" name="sex" value="female" /></td> 
+							</tr>
+							<tr>
+						</table>
+					</form>
+				</div>
+			</div>
+			<div id="block3">
+				<div class="block_title">
+					ΠΕΡΙΓΡΑΦΗ ΑΙΤΟΥΜΕΝΩΝ ΜΗΧΑΝΟΓΡΑΦΙΚΩΝ ΥΠΗΡΕΣΙΩΝ
+				</div>
+				<div id="block3_data">
+					<textarea rows="10px" cols="99px" >Περιγράψτε εδώ...</textarea>
+					<i>*το πλαίσιο μεγαλώνει απο την κάτω δεξιά γωνία</i>
+				</div>
+				<div id="block3_footer">
+					<table cellpadding="5px" cellspacing="5px;">
+						<tr>
+							<td>Παρατηρήσεις: </td>
+							<td>Υπογραφή:</td>
+						</tr>
+						<tr>
+							<td> <textarea rows="5px" cols="35px"> </textarea> </td>
+							<td> <textarea rows="5px" cols="35px"> </textarea> </td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			<div id="block4">
+				<div class="block_title">
+					ΕΙΣΗΓΗΣΗ ΥΠΗΡΕΣΙΑΣ ΠΛΗΡΟΦΟΡΙΚΗΣ
+				</div>
+				<div id="block4_data">
+					Οι αιτούμενες υπηρρεσίες είναι πραγματοποιήσημες απο την Υ. Πληροφορικής;
+					<form action="" method="POST">
+						ΝΑΙ <input type="radio" name="epilogh" value="yes" />
+						ΟΧΙ <input type="radio" name="epilogh" value="no" />
+					</form> 
+				</div>
+			</div>
+			<div id="block5">
+				<div id="block5_table">
+					<table>
+						<tr id="block5_table_tr">
+							<td> α/α</td>
+							<td> Απαιτούμενες εργασίες</td>
+							<td> Πιθανό κόστος</td>
+						</tr>
+						<tr>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+						</tr>
+						<tr>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+						</tr>
+						<tr>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+							<td> <input type="text" name=""/> </td>
+						</tr>
+					</table>
+					Παρατηρήσεις: <br />
+					<textarea rows="5px" cols="35px"></textarea><br />
+					Εισήγηση:
+					<form action="" method="POST">
+						ΝΑΙ <input type="radio" name="epilogh" value="yes" />
+						ΟΧΙ <input type="radio" name="epilogh" value="no" />
+						ΑΛΛΟ <input type="text" name="epilogh" value="" />
+					</form> 
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			Π.Γ.Ν. ΙΩΑΝΝΙΝΩΝ. - Υπηρεσία Πληροφορικής - Τηλ.  26510 99441 & 558 - 559
+		</div>
+	</div>
+</body>
+</html>
