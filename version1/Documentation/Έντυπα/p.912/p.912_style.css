@@ -1,0 +1,53 @@
+#header {
+	height:200px;
+}
+
+#info {
+	height: 130px;
+}
+
+#info_left {
+	height: 150px;
+	width: 150px;
+	float: left;
+}
+
+#info_center {
+	height: 150px;
+	width: 500px;
+	float: left;
+}
+
+#info_right {
+	height: 150px;
+	width: 250px;
+	float: left;
+}
+
+#header_title {
+	border-top-style: solid;
+	border-top-color: #151B8D;
+	border-top-width: 2px;
+
+	border-bottom-style: solid;
+	border-bottom-color: #151B8D;
+	border-bottom-width: 2px;
+	
+	height: 50px;
+	text-align: center;
+	color: #7D1B7E;
+}
+
+.titles{
+	background:	#7D1B7E;
+	Color: White;
+}
+
+#main {
+	height: 500px;
+	
+}
+
+#stoixeia_data_table{
+ border-collapse : collapse;
+}

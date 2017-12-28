@@ -1,0 +1,163 @@
+/*=========================================
+				BASIC
+=========================================*/
+
+body {
+	font-family: Arial;
+}
+
+#main {
+	width: 850px;
+	margin: auto;
+	background: 
+	border-radius: 8px;
+}
+
+#header {
+	height: 250px;
+}
+
+#content {
+	background: grey;
+}
+
+#footer {
+	height: 25px;
+	font-size: 16px;
+	background: grey;
+	padding-left: 20px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+/*=========================================
+				HEADER
+=========================================*/
+
+#info {
+	height: 170px;
+}
+
+#info_left {
+	
+	height: 150px;
+	width: 140px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+#info_center {
+
+	height: 150px;
+	width: 380px;
+	float: left;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+#info_right {
+
+	height: 150px;
+	width: 250px;
+	float: left;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+#header_title {
+	height: 40px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	padding-top: 15px;
+	
+	border-top-color: black;
+	border-top-style: solid;
+	border-top-width: 2px;
+	
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	
+	word-spacing: 8px;
+	letter-spacing: 2px;
+}
+
+/*=========================================
+				BLOCKS
+=========================================*/
+
+.block_title{
+	height: 25px;
+	font-size: 16px;
+	background: grey;
+	padding-left: 20px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+}
+
+
+#block1_data {
+	background: 
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block2_data {
+	background: 
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block3_data {
+	background: #8FBF8A;
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block3_footer {
+	background: #8FBF8A;
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block4_data {
+	background: #8FBF8A;
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block5 {
+
+}
+
+#block5_table {
+	background: #8FBF8A;
+	padding: 15px;
+	font-family: Georgia;
+}
+
+#block5_table_tr {
+	height: 25px;
+	font-size: 16px;
+	background: grey;
+	padding-left: 20px;
+	padding-top: 5px;
+	letter-spacing: 1px;
+}
+
+/*=========================================
+				OTHER
+=========================================*/
+
+.table_row1 {
+	background: #B0B0B0;
+}
+
+.table_row2 {
+	background: #D1D1D1;
+}
